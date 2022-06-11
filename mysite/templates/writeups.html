@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+<link rel="stylesheet" href="/static/ctf/jersey/writeups.css">
+<style>
+
+    @media screen and (max-width:430px) {
+        
+        #stain{
+
+            left: 22%;
+        }
+        #stainname{
+            font-size: 130%;
+        }
+
+        #info1{
+            font-size: 150%;
+        
+        }
+
+        #spaceherologo{
+            top: -3%;
+            left: -55%;
+            height: 200px;
+        }
+
+        #ctf1{
+            padding-left: 80px;
+            font-size: 25px;
+            padding-top: 55%;
+        }
+
+        #c1,#c2{
+                    padding-left: 25%;
+        }
+
+        #jerseylogo{
+            top: -3%;
+            left: -55%;
+            height: 200px;
+        }
+
+        #ctf2{
+            padding-left: 80px;
+            font-size: 25px;
+            padding-top: 55%;
+
+        }
+
+        #cc1,#cc2{ 
+            padding-left: 25%
+        }
+        #cc3{
+            left: 55%;
+            top: 74%;
+        }
+        #cc4{
+            left: 55%;
+            top: 87%;
+        }
+    }
+
+        @media screen and (max-width:335px) {
+
+            #spaceherologo{
+                padding-left: 68%;
+            }
+
+            #ctf1{
+                padding-top: 68%;
+                padding-left: 76px;
+            }
+        
+
+        #jerseylogo{
+            padding-left: 68%;
+        }
+        #ctf2{
+            padding-top: 70%;
+        }
+
+    
+    }
+</style>
+
+
+<div class="kstain">
+   hi
+</div>
+<img id="stain" src="/static/stain.jpg" alt="killerstain" style=" background-color: white;">
+
+<h2 id="stainname" >Stains</h2>
+<h2 id="info1" >Capture The Flag writeups</h2>
+
+<br><br>
+
+<!--ctf logo and title-->
+<hr width="63%">
+<div style="position: relative;">
+    <img id="spaceherologo" src="/static/spacehero.png " alt="logo">   
+    <h1 id="ctf1"><a href="/spacehero" id="a1" hover target="__blank__">Space Hero CTF 22</a></h1>
+    <h4 id="c1">Web</h4>
+    <h4 id="c2">Forensic</h4>
+       
+    
+</div>
+<br>
+<hr width="63%">
+
+<div style="position: relative;">
+    <img id="jerseylogo" src="/static/jersey.png" alt="jerseyCTF logo">
+    <h1 id="ctf2"><a href="/jersey" id="a2" hover target="__blank__" >JerseyCTF ll</a></h1>
+    <h4 id="cc1">Web</h4>
+    <h4 id="cc2">Forensic</h4>
+    <h4 id="cc3">Crypto</h4>
+    <h4 id="cc4">Misc</h4>
+
+</div>
+<br>
+<hr width="63%">
+
+
+{% endblock body %} 

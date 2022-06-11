@@ -1,0 +1,323 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3c4349;
+}
+.app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15rem;
+    min-height: 100vh;
+    padding: 2.5em;
+    background: #1c1e26!important;
+    text-align: center;
+}
+
+#stainphoto{ 
+border-radius: 30%;
+ height: 250px;
+ position: relative;
+ left: 75px; top: 100px;
+}
+
+#stainname{
+    position: absolute;
+     color: whitesmoke;
+      left: 105px;
+     top: 340px;
+}
+
+#aboutname{
+   position: absolute;
+    color: #1c92ec; 
+    left: 80px;
+     top: 440px;
+}
+
+#a1{
+    color: #1c92ec;
+}
+
+#homename{
+    
+    position: absolute;
+     color: #1c92ec;
+      left: 160px;
+     top: 440px;
+}
+
+#a2{
+    color: #1c92ec;
+}
+
+#linkedinlogo{
+    position: absolute;
+     border-radius: 100% ;
+      height: 30px;
+       top: 510px;
+        left: 90px;
+}
+
+#twitterlogo{
+    position: absolute;
+     border-radius: 100% ;
+      height: 30px;
+       top: 510px;
+       left: 140px;
+}
+
+#jerseyname{
+    position: absolute;
+     color: #1c92ec;
+      left: 25%;
+}
+
+#info1{
+    position: absolute; 
+    color: white; 
+    top: 10%; left: 25%;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#c1{
+   position: absolute;
+    color: aliceblue; 
+    left: 25%;
+     top: 140px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+#c1c1{
+   position: absolute; 
+   color: whitesmoke;
+    top: 25%;
+     left: 25%;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#clink{
+   position: absolute;
+    color: aliceblue;
+     top: 220px; left: 25%; 
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1{
+    position: absolute;
+     color: aliceblue; 
+    top: 260px;
+     left: 25%;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#code1{
+    position: absolute; 
+    color: aliceblue;
+     top: 315px;
+      left: 20%;
+}
+
+#line1{
+     position: absolute;
+      top: 345px;
+      left: 25%;
+       color: aliceblue;
+}
+
+#c1c2{
+  position: absolute;
+   color: whitesmoke;
+    top: 360px; 
+    left: 25%; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#p2{
+   position: absolute;
+    color: aliceblue;
+     top: 400px;
+      left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#code2{
+   position: absolute; 
+   color: aliceblue;
+    top: 520px;
+     left: 25%; 
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#p3{
+   position: absolute;
+    color: aliceblue;
+     top: 540px; 
+     left: 25%;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+#code9{
+
+    position: absolute;
+     color: aliceblue;
+      top: 640px;
+       left: 18%;
+    
+}
+
+#line2{
+    position: absolute;
+     top: 690px;
+     left: 25%;
+      color: aliceblue;
+}
+
+#c1c3{
+    position: absolute; 
+    color: whitesmoke; 
+    top: 720px;
+     left: 25%;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#p4{
+    position: absolute; color: aliceblue; top: 750px; left: 25%; font-family: Arial, Helvetica, sans-serif;
+}
+
+#line3{
+    position: absolute; top: 1320px;left: 25%; color: aliceblue;
+}
+
+#c2{
+   position: absolute; color: aliceblue; left: 25%; top: 1340px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#c2c1{
+   position: absolute; color: white; left: 25%; top: 1399px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#p5{
+   position: absolute; color: aliceblue; left: 25%; top: 1430px; font-family: Arial, Helvetica, sans-serif; 
+}
+
+#pcapphoto{
+   position: absolute; left: 25%; top: 1500px; height: 600px;
+}
+
+#p6{
+   position: absolute; color: aliceblue; left: 25%; top: 2100px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#stolendataphoto{
+   position: absolute; left: 25%; top: 2150px; height: 600px;
+}
+
+#p7{
+   position: absolute; left: 25%; top: 2750px; color: aliceblue; font-family: Arial, Helvetica, sans-serif;
+}
+
+#flag1{
+    position: absolute; left: 25%; top: 2790px; color: aliceblue; height: 400px;
+}
+
+#code3{
+   position: absolute; left: 16%; top: 3200px; color: aliceblue; 
+}
+
+#line4{
+     position: absolute; top: 3230px;left: 25%; color: aliceblue;
+}
+
+#c3{
+   position: absolute; color: aliceblue; left: 25%; top: 3280px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#c3c1{
+    position: absolute; color: white; left: 25%; top: 3350px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#p8{
+    position: absolute; color: aliceblue; left: 25%; top: 3400px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#herringphoto{
+    position: absolute; top: 3450px; left: 25%; height: 400px;
+}
+
+#p9{
+   position: absolute; top: 3840px; left: 25%; color: aliceblue; font-family: Arial, Helvetica, sans-serif;
+}
+
+#flag2{
+    position: absolute; left: 25%; top: 3900px; height: 400px;
+}
+
+#code4{
+    position: absolute; top: 4330px; left: 20%; color: aliceblue;
+}
+
+#line5{
+   position: absolute; top: 4370px;left: 25%; color: aliceblue;
+}
+
+#c3c2{
+   position: absolute; color: white; left: 25%; top: 4400px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#p10{
+   position: absolute; color: aliceblue; left: 25%; top: 4460px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#johnpassphoto{
+    position: absolute; top: 4500px ;left: 25%; height: 200px; width: 1100px;
+}
+
+#p11{
+    position: absolute; top: 4700px; left: 25%;color: aliceblue; font-family: Arial, Helvetica, sans-serif;
+}
+
+#flag3{
+    position: absolute; top: 4740px; left: 25%; height: 400px; width: 1100px;
+}
+
+#code5{
+    position: absolute; top: 5150px; left: 18%; color: aliceblue;
+}
+
+#line6{
+     position: absolute; top: 5190px;left: 25%; color: aliceblue;
+}
+
+#c4{
+    position: absolute; color: aliceblue; left: 25%; top: 5200px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#c4c1{
+   position: absolute; color: white; left: 25%; top: 5250px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#p12{
+    position: absolute; color: aliceblue; left: 25%; top: 5280px; font-family: Arial, Helvetica, sans-serif;
+}
+
+#carphoto{
+   position: absolute; top: 5350px; left: 25%; height: 400px;
+}
+
+#p13{
+    position: absolute; top: 5800px; left: 25%; font-family: Arial, Helvetica, sans-serif; color: aliceblue;
+}
+
+#flag4{
+    position: absolute; top: 150px; left: 1%; height: 100px; width: 1100px;
+}
+
+#code6{
+    position: absolute; left: 17%; top: 6100px; color: aliceblue;
+}
+
+#line7{
+   position: absolute; top: 6130px;left: 25%; color: aliceblue;
+}

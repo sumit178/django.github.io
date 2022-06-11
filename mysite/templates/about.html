@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<link rel="stylesheet" href="/static/ctf/jersey/about.css">
+<style>
+
+    @media screen and (max-width:430px) {
+        #about{
+            font-size: 50px;
+        }
+        #p1{
+            font-size: 16px;
+        }
+        
+    }
+
+</style>
+<div>
+    <h1 id="about">About</h1>
+    <hr width="50%%">
+</div>
+<div>
+    <p id="p1"> Hi , I'm Sumeet Darekar a cybersecurity student. love to play Capture the flag competitions.
+    <br>
+    Mostly i'm gonna post the writeups of  Web , Forensic and Steganography  challenges here.
+    <br><br>
+    Feel free to check my writeups and also give me feedbacks about how should
+    <br>
+    i improve my writeups more. Because i'm also a N00B in this space.
+    </p>
+    <hr width="50%%">
+</div>
+
+<div style="position: relative; ">
+    <h1  style="position: absolute;  left: 20%; color: #389deb;">Links</h1>
+    <h3 style="position: absolute; left: 25%; top: 50px; color: aliceblue;"><a href="https://twitter.com/mei_gareeb" style="color: aliceblue;"><img src="/static/t1.png" style="border-radius: 100%; height: 25px; position: relative; top: 7px; right: 10px;">mei_gareeb</a></h3>
+    <h3 style="position: absolute; left: 25%; top: 100px; color: aliceblue;"><a href="https://www.linkedin.com/in/sumeet-darekar-07569a1b4/" style="color: aliceblue;"><img src="/static/l1.jpg" style="border-radius: 100%; height: 25px; position: relative; top: 7px; right: 10px;">Sumeet Darekar</a></h3>
+    <h3 style="position: absolute; left: 25%; top: 150px; color: aliceblue;"><a href="https://github.com/sumit178" style="color: aliceblue;"><img src="/static/g1.png" style="border-radius: 100%; height: 25px; position: relative; top: 7px; right: 10px;"> sumit178</a></h3>
+
+</div>
+
+
+{% endblock body %}

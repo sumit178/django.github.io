@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/ctf/jersey/spacehero.css">
+    <style>
+
+        @media screen and (max-width:420px) {
+            .div1{
+display: none;
+                }
+                .app-header{
+display: none;
+                }
+                #spacehero{
+left: 10%
+                }
+                #info1{
+                        left: 10%;
+                }
+                #c1{
+                        left: 12%;
+                }
+                #robotimage{
+left: 12%;
+top: 26%;
+height: 10rem;
+width: 15rem;
+                }
+                #p1{
+left: 12%;
+                        top: 45%;
+                } 
+                #code1{
+left: 12%;
+                 font-size: 10px;
+                        top: 55%;
+                }
+                #line1{
+left: 12%;
+        top: 58%;
+                }
+                
+                #c1c2{
+                        left: 10%;
+                        top: 60%;
+                }
+                #spacebudphoto{
+left: 12%;
+                        height: 20rem;
+                        width: 18rem;
+                        top: 68%;
+                }
+                
+                #dogs{
+left: 12%;
+                        top: 114%;
+                        width: 18rem;
+                        height: 12rem;
+        
+                }
+                #p2{
+left: 12%;
+                        top: 138%
+                }
+                #websitephoto{
+left: 12%;
+                        top: 148%;
+                        width: 18rem;
+                        height: 10rem;
+
+                }
+                #p3{
+                        left: 12%;
+                        top: 167%
+                                
+                }
+                #getcookiephoto{
+left: 12%;
+                        top: 179%;
+                        width: 18rem;
+                        height: 15rem;
+                }
+                #code2{
+                        left: -24%;
+                        top: 210%
+                }
+                #line2{
+                        left: 12%;
+                        top: 214%;
+                }
+                #c2{
+                        left: 12%;
+                        top: 217%;
+                }
+                #Future{
+                    display: none;
+                }
+                
+                #c1c1{
+left: 10%;
+                        top: 222%;
+                }
+                #shuttlephoto{
+                        left: 12%;
+                        top: 229%;
+                }
+                #sallyridephoto{
+left: 12%;
+                        top: 255%;
+                        width: 20rem;
+                        height: 15rem;
+                }
+                #code3{
+left: -26%;
+                        top: 286%;
+                }
+                #p4{
+left: 12%;
+                        top: 289%;
+        
+                }
+                #code4{
+                        left: 12%;
+                        top: 306%;
+                }
+                #line3{
+left: 12%;
+                        top: 310%;
+                }
+                
+            
+        }
+
+    </style>
+    <title>Sumeet Darekar</title>
+   
+       
+</head>
+<body>
+    <header class="app-header"> 
+    </header>
+
+    <div style="position: fixed;" class="div1">
+        <img id="stainphoto" src="/static/stain.jpg" alt="stain photo" >
+        <h1 id="stainname">Stains</h1>
+        <h3 id="aboutname"><a id="a1" href="/about">About</a></h3>
+        <h3 id="homename"><a id="a2" href="/">Home</a></h3>
+        <a href="https://www.linkedin.com/in/sumeet-darekar-07569a1b4/"  target="_blank"><img id="linkedinlogo" src="/static/l1.jpg" alt="linkedin"></a>
+        <a href="https://twitter.com/k_stain2"  target="_blank"><img id="twitterlogo" src="/static/t1.png" alt="twitter"></a>
+    </div>
+
+    <div>
+        <h1 id="spacehero">Space Heroes CTF</h1>
+        <h4 id="info1">This writeup contains all challenges in space hero CTF 2022 that i solved.</h4>
+        <h2 id="c1">Web challenges</h2>
+    </div>
+
+    <!-- first -->
+    <div>
+
+        <h3 id="c1c1"></h3>
+        
+        <img id="robotimage" src="/static/ctf/robots.jpeg" alt="robot image">
+        <p id="p1">Image gives me some info about the robot so 
+            
+            i visited the /robots.txt.
+        
+        And B00M i got the flag.    
+        </p>
+
+        <pre >
+            <code id="code1">FLAG = shctf{th1s-aster0id-1$-n0t-3ntir3ly-stable}</code>
+        </pre>
+    </div>
+
+    <hr width="70%" id="line1">
+
+    <!-- second -->
+    <h3 id="c1c2">2. Space bud</h3>
+    <div>
+            <img id="spacebudphoto" src="/static/ctf/spacebuds.jpg" alt="spacebud photo" >
+            <img id="websitephoto" src="/static/ctf/hacker.png" alt="website image" >
+            <p id="p2">By searching this movie on google we get know about all character's name.</p>
+            <img id="dogs" src="/static/ctf/char.jpg" alt="characters" >
+            <p id="p3" >By sending form to /getcookie and editing cookie values to characters name. At last mudbud character display's the flag.
+            <br>
+            And B00M got the flag.
+            </p>
+            <img id="getcookiephoto" src="/static/ctf/getcookies.png" alt="flag photo" >
+            <pre>
+                <code id="code2">
+                    FLAG=shctf{tastes_like_raspberries}
+                </code>
+            </pre>
+            <hr width="70%" id="line2">
+        </div>
+
+        <h2 id="c2">Forensic challenges</h2>
+
+        <div>
+            <h3 id="Future">1. Future steg</h3>
+            <img id="shuttlephoto" src="/static/ctf/shuttlesteg.jpg" alt="shuttle image" >
+            <img id="sallyridephoto" src="/static/ctf/sallyride.jpg" alt="sallyride image" >
+            <pre>
+                <code id="code3">
+                    CMD = steghide extract -sf  shuttlesteg.jpg
+                </code>
+            </pre>
+            <p id="p4">Use steghide on shuttle image and password phrase = 2nd image name(sallyride)
+                
+                A new file get generate called steganopayload226701.txt.
+                <br>
+                And B00M we get flag in that file.
+            </p>
+
+            pre>
+                <code id="code4">
+                    FLAG = shctf{weightlessness_is_a_great_equalizer} 
+                </code>
+            </pre>
+        </div>
+    <hr width="70%" id="line3">
+
+
+
+</body>
+</html>
